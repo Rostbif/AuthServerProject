@@ -23,11 +23,16 @@ namespace MvcClient
             .AddOpenIdConnect("oidc", options =>
             {
                 options.Authority = "https://localhost:5001";
+
                 options.ClientId = "mvc";
                 options.ClientSecret = "secret";
                 options.ResponseType = "code";
+
                 options.SaveTokens = true;
+
                 options.Scope.Add("profile");
+                options.Scope.Add("api1");
+
                 options.GetClaimsFromUserInfoEndpoint = true;
             });
         }
