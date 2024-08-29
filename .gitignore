@@ -1,0 +1,117 @@
+
+*.env
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Cake build files - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Ignore Tabs Studio files
+*.tss
+
+# Ignore Telerik's JustMock configuration files
+*.jmconfig
+
+# Ignore BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Ignore NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# Ignore Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.history/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Linux specific files
+*~
+# KDE directory preferences
+.directory
+
+# Ignore other system files
+*.swp
+*.lock
+*.bak
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
